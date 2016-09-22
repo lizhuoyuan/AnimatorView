@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FirstCustomView">
+        <attr name="title" format="string"></attr>
+        <attr name="titlesize" format="dimension"/>
+        <attr name="titlecolor" format="color"/>
+
+        <attr name="leftbackground" format="color|reference"/>
+        <attr name="lefttext" format="string"/>
+        <attr name="leftcolor" format="color"/>
+
+        <attr name="righttext" format="string"/>
+        <attr name="rightcolor" format="color"/>
+        <attr name="rightbackground" format="reference|color"/>
+    </declare-styleable>
+</resources>
